@@ -1,0 +1,157 @@
+@import url('bootstrap.min.css');
+@import url('all.min.css');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin: 0;
+}
+
+/*Style for Header*/
+
+header .header-top{
+    background-color: #484848;
+}
+header .header-top .wc-message{
+    color: #9f9e9c;
+    font-size: 0.7rem;
+    margin-top: 10px;
+
+
+}
+
+header .header-top .row .col-9 .nav{
+    margin-top: 6px;
+}
+header .header-top .row .col-9 .nav .nav-link{
+    color: #9f9e9c;
+    font-size: 0.75rem;
+
+}
+header .header-top .search .form-control{
+    width: 60%;
+    height: 28px;
+    display: inline-block;
+    padding: 0 0 0 4px;
+    border-radius: 0;
+}
+header .header-top .search .btn{
+    margin-left: -3px;
+    border-radius: 0;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    bottom: 4px;
+}
+header .bg-light{
+    background-color: #ffffff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{*/
+    /*background-color: darkgrey;*/
+/*}*/
+/*.nav-link{*/
+/*}*/
+/*.img{*/
+
+    /*width: 100%;*/
+    /*height: 500px;*/
+/*}*/
+/*p{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*.row {*/
+    /*margin-right: 0px;*/
+    /*margin-left: 0px;*/
+/*}*/
+/*!*.menuItem ul{*!*/
+ /*!*display: flex;*!*/
+/*!*}*!*/
+/*!*.menuItem ul li{*!*/
+    /*!*list-style: none;*!*/
+    /*!*color: white;*!*/
+    /*!*padding-left: 30px;*!*/
+/*!*}*!*/
+/*p{*/
+    /*margin: 0;*/
+/*}*/
+/*.header-top{*/
+    /*background-color: #484848;*/
+/*}*/
+
+/*.wc-message{*/
+    /*color: #9f9c9e;*/
+    /*font-size: 0.7rem;*/
+    /*margin-top: 10px;*/
+/*}*/
+
+/*.header-top .row .col-md-9 .nav{*/
+    /*margin-top: 6px;*/
+/*}*/
+/*.header-top .row .col-md-9 .nav .nav-link{*/
+    /*color: #9f9c9e;*/
+   /*font-size: 0.75rem;*/
+/*}*/
+
+/*.header-top .search .form-control{*/
+    /*width: 60%;*/
+    /*height: 28px;*/
+    /*display: inline-block;*/
+    /*padding: 0 0 0 4px;*/
+    /*border-radius: 0;*/
+/*}*/
+
+/*.header-top .search .btn{*/
+    /*margin-left: -3px;*/
+    /*border-radius: 0;*/
+    /*padding: 0;*/
+    /*width: 28px;*/
+    /*height: 28px;*/
+    /*position: relative;*/
+    /*bottom: 4px;*/
+/*}*/
+
+/*.header-top .bg-light{*/
+    /*background-color: #FFFFFF; !important;*/
+/*}*/
