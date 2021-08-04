@@ -1,5 +1,15 @@
 <x-master>
 
+    @php
+        function tagMach($seleced_tags ,$tag){
+            foreach ($seleced_tags as $seleced_tag){
+                if($seleced_tag->id == $tag){
+                    return true;
+                }
+            }
+            return false;
+        }
+    @endphp
 
     <div class="card">
         <div class="card-body">
@@ -10,10 +20,8 @@
                     <div class="form-group">
                         <label class="text-capitalize">Tag:</label>
                          <select name="tag[]" id="tag_select" class="form-control" multiple="multiple" >
-                             @foreach($seleced_tag as $ta)
-                                @foreach($tags as $tag)
-                                    <option value="{{$tag->id}}" {{$tag->id == $ta->id ? 'selected': ''}}>{{$tag->name}}</option>
-                                @endforeach
+                             @foreach($tags as $tag)
+                                 <option value="{{$tag->id}}" {{tagMach($seleced_tag,$tag->id) ? 'selected': ''}}>{{$tag->name}}</option>
                              @endforeach
                         </select>
                     </div>
